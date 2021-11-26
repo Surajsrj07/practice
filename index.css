@@ -38,7 +38,7 @@
 
 /* Display */
 .divPaginator{
-    display: flex;
+    display: flex
 }
 
 /* margin */
@@ -46,4 +46,3 @@
 .margin-5{
     margin: 5px;
 }
-hhh
