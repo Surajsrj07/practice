@@ -135,3 +135,38 @@ a = a.trim();
 console.log("After Trim : "+a.length);   //5
 
 
+//padstart & padend
+
+a ="5";
+a=a.padStart(4,0);
+console.log("padstart : "+a);   //0005
+
+
+a ="5";
+a=a.padEnd(4,0);
+console.log("padend : "+a);   //5000
+
+
+a ="5";
+a=a.padEnd(4,'$');
+console.log("padend : "+a);  //5$$$
+
+
+//Long Literal Strings
+
+// method1
+
+let longString = "C is a general purpose programming language"+
+"developed at AT & Bell laboratory of USA in 1972"+
+"it was designed and written by dennis ritchie";
+
+console.log(longString);
+
+// method2
+
+longString = "C is a general purpose programming language \
+developed at AT & Bell laboratory of USA in 1972 \
+it was designed and written by dennis ritchie..";
+
+console.log(longString);
+
