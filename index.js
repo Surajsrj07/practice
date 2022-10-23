@@ -1,50 +1,44 @@
-console.log('Hello World');
+//for checking
+
+//STRING
+console.log("Welcome to JS BOOTCAMP");
 
 
-// Let
+//NUMBER
 
-let name = 'Suraj';
-console.log(name);
+console.log(12456);
 
-// cannot be a reserved keyword
-// should be meaningful name
-// cannot start with a number (1name)
-// cannot contain a space or hyphen (_)
-// are case sensitive
-let firstName = 'Suraj';
-let lastName = 'Yeshvanth';
-
-// constant
-
- let interestRate = 0.5;
- interestRate = 1;
- console.log(interestRate);
-// Const interestRate = 0.5;
-// interestRate = 1;
-// console.log(interestRate);
+console.log(18.56);
 
 
-// Primitive /value Types
+//BOOLEAN
 
-let name = 'Mosh'; //string literal
-let age = 30; //Number literal
-let isApproved = true ; //Boolean literal
-let firstname ;//undefined
-let selectedcolor = null;
+console.log(true);
+console.log(false);
 
+//ARRAY
 
-//Reference Type
-// 1)Object
-// 2)Array
-// 3)Function
+console.log([25, 45, 18, 26, 12]);
 
-// 1)Object
+//OBJECT
 
-let person = {
-    peru = 'Suraj',
-    age = 30,
-};
+console.log({fname : "Suraj", age : 28});
 
+//OBJECT in TABLE
 
-console.log(person);
+console.table({fname : "Suraj", age : 28});
 
+console.error("custom sample error");
+
+console.warn("custom sample warning");
+
+//Timer
+
+console.time("Timer");
+
+for(let i=0; i<15; i++)
+{
+    console.log(i);
+}
+
+console.timeEnd("Timer");
