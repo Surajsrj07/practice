@@ -170,3 +170,10 @@ it was designed and written by dennis ritchie..";
 
 console.log(longString);
 
+
+//fromCharCode()
+
+
+console.log(String.fromCharCode(65,66,67,68,97,98,99,122));
+
+
