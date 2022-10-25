@@ -15,3 +15,4 @@ console.log(x);
 
 Array.prototype.reverse.call(x);
 console.table(x);
+
