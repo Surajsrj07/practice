@@ -56,7 +56,7 @@ const users = [
 
     {
         full_name: "Akshay",
-        age: 12,
+        age: 2,
         city: "Madurai",
         salary: 12000,
     },
@@ -77,9 +77,16 @@ console.table(users);
 
 users.sort((a,b)=>{
     if (a.full_name>b.full_name) return 1;
-    if (b.full_name>a.full_name) return -1;
+    if (a.full_name<b.full_name) return -1;
     return 0;
 });
 
 console.table(users);
 
+//ascending in salary
+
+users.sort((a,b)=>{
+   return a.salary-b.salary;
+});
+
+console.table(users);
