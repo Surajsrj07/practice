@@ -58,7 +58,7 @@ c=first_name.charAt('2');  //r
 console.log("CharAt : "+c);
 
 c=first_name.charCodeAt('2');   //ASCII Value
-console.log("CharAt : "+c);  //114
+console.log("CharCodeAt : "+c);  //114
 
 
 //SubStr
